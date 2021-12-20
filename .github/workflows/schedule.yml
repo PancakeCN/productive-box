@@ -12,6 +12,6 @@ jobs:
       - name: Update gist
         uses: PancakeCN/productive-box@master
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_TOKEN: ${{ gh_profile.GH_TOKEN }}
           GIST_ID: 0baeb46b521b2c214b976d5cf49fc1a6
           TIMEZONE: Asia/Shanghai
