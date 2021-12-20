@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Update gist
-        uses: maxam2017/productive-box@master
+        uses: PancakeCN/productive-box@master
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           GIST_ID: 0baeb46b521b2c214b976d5cf49fc1a6
